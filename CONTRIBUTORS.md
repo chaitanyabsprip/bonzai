@@ -6,7 +6,7 @@ This project exists thanks to all the people who contribute.
 
 [@Chaitanyabsprip](https://github.com/Chaitanyabsprip)
 
-- [kimono](cmds/kimono)
+- [kimono](https://github.com/chaitanyabsprip/kimono)
 - `Cmd.WithName`
 - `Cmd.AsHidden`
 - [`vars.Fetch`]

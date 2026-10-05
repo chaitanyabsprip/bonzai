@@ -25,7 +25,7 @@ Bonzai users can easily share their own commands with others just like they woul
 
 Take a look at the following commands to get an idea of what can be done:
 
-- [`kimono` - Go monorepo utility](./cmds/kimono)
+- [`kimono` - Go monorepo utility](https://github.com/chaitanyabsprip/kimono)
 - [`help` - importable help command](./cmds/help)
 - [`var` - persistent variable tool](./vars/cmd/var)
 - [`sunrise` - fun terminal performance tester](./cmds/sunrise)
