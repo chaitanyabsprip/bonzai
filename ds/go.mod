@@ -9,5 +9,6 @@ require (
 
 require (
 	github.com/chaitanyabsprip/bonzai/fn v0.8.3 // indirect
+	github.com/chaitanyabsprip/bonzai/is v0.3.1 // indirect
 	github.com/chaitanyabsprip/bonzai/scanner v0.1.1 // indirect
 )

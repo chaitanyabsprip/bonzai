@@ -9,6 +9,6 @@ require (
 )
 
 require (
-	github.com/rogpeppe/go-internal v1.13.1 // indirect
 	github.com/chaitanyabsprip/bonzai/uniq v0.1.1 // indirect
+	github.com/rogpeppe/go-internal v1.13.1 // indirect
 )

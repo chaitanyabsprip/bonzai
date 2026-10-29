@@ -1,6 +1,8 @@
-github.com/chaitanyabsprip/bonzai/ds v0.1.0 h1:KIEnKJYnt8QBeEewvUb5AqrjWMkbk/mERbneohEVaec=
-github.com/chaitanyabsprip/bonzai/ds v0.1.0/go.mod h1:TXt50HVz1dDHhAwXe1K8p3bNX8tTbaDIvE0nC3tr0L0=
-github.com/chaitanyabsprip/bonzai/scanner v0.1.0 h1:xPf5817Mt0lkm2GvygJIGBqq0sS7thvh5ceK3RjWhkQ=
-github.com/chaitanyabsprip/bonzai/scanner v0.1.0/go.mod h1:JsWu2C9ytyKNzjYzDto89orF7iXk9qFXnOSh8ghAJQM=
-github.com/chaitanyabsprip/bonzai/to v0.1.0 h1:iZmGAvecuxtJpq/AMFQl1p/tG0+0FM/k0J9Sa2/Zdx0=
-github.com/chaitanyabsprip/bonzai/to v0.1.0/go.mod h1:dU0IeP9LyqPdkQnbd2Qm4P0/ZYdS9ErXo8npNn/rH00=
+github.com/chaitanyabsprip/bonzai/ds v0.1.2 h1:Ls2/ti3MQ/uSXvgim6+miUZIAYhPGTuNTmx93BZ/uvc=
+github.com/chaitanyabsprip/bonzai/ds v0.1.2/go.mod h1:BILbPejTFQs15K1Wt0M7gqvmASevy+BFr4pZ02OE/O8=
+github.com/chaitanyabsprip/bonzai/is v0.3.1 h1:2djATBzSUo1ysdE2mMaG4nbRkOerXhudkcAPcq/nF08=
+github.com/chaitanyabsprip/bonzai/is v0.3.1/go.mod h1:EfOtIj9AYsZ5jmYStiUhzFzYWsXlXZuV6ryGSve6JTE=
+github.com/chaitanyabsprip/bonzai/scanner v0.1.1 h1:lzRw/iOqjHcYVRn/3z9a/zosPGm0WYwacHdgNantieY=
+github.com/chaitanyabsprip/bonzai/scanner v0.1.1/go.mod h1:DrDGxvch8shTf04gFHviYguDC9BD6phB/UkBziHJlgQ=
+github.com/chaitanyabsprip/bonzai/to v0.3.1 h1:8YoDHNctpzOSXgpRHIUc57rYtJ5Vnj7xrs2cfCmQziI=
+github.com/chaitanyabsprip/bonzai/to v0.3.1/go.mod h1:hpdVuUXD1G+Q5RU4cpxeGq0OL76YwdDcKVOmomQXY2Y=

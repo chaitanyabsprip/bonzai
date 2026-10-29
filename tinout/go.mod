@@ -6,7 +6,4 @@ toolchain go1.23.2
 
 require gopkg.in/yaml.v3 v3.0.1
 
-require (
-	github.com/chaitanyabsprip/bonzai/fn v0.8.3 // indirect
-	github.com/chaitanyabsprip/bonzai/json v0.1.1
-)
+require github.com/chaitanyabsprip/bonzai/json v0.1.1

@@ -6,5 +6,6 @@ require github.com/chaitanyabsprip/bonzai/to v0.3.1
 
 require (
 	github.com/chaitanyabsprip/bonzai/ds v0.1.2 // indirect
+	github.com/chaitanyabsprip/bonzai/is v0.3.1 // indirect
 	github.com/chaitanyabsprip/bonzai/scanner v0.1.1 // indirect
 )

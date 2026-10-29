@@ -3,8 +3,12 @@ module github.com/chaitanyabsprip/bonzai/anim
 go 1.23.3
 
 require (
-    github.com/chaitanyabsprip/bonzai v0.54.2
-    github.com/chaitanyabsprip/bonzai/cmds/help v0.8.4
-    github.com/chaitanyabsprip/bonzai/comp v0.10.1
-    gonum.org/v1/gonum v0.15.1
+	github.com/chaitanyabsprip/bonzai/run v0.7.1
+	github.com/chaitanyabsprip/bonzai/term v0.2.2
+)
+
+require (
+	github.com/chaitanyabsprip/bonzai/futil v0.3.1 // indirect
+	github.com/chaitanyabsprip/bonzai/uniq v0.1.1 // indirect
+	github.com/rogpeppe/go-internal v1.13.1 // indirect
 )

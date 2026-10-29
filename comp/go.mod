@@ -9,10 +9,10 @@ require (
 )
 
 require (
-	github.com/rogpeppe/go-internal v1.13.1 // indirect
 	github.com/chaitanyabsprip/bonzai/ds v0.1.2 // indirect
 	github.com/chaitanyabsprip/bonzai/is v0.3.1 // indirect
 	github.com/chaitanyabsprip/bonzai/scanner v0.1.1 // indirect
 	github.com/chaitanyabsprip/bonzai/to v0.3.1 // indirect
 	github.com/chaitanyabsprip/bonzai/uniq v0.1.1 // indirect
+	github.com/rogpeppe/go-internal v1.13.1 // indirect
 )
