@@ -4,10 +4,12 @@ import (
 	_ "embed"
 	"encoding/json"
 	"fmt"
+	"os"
 
 	"github.com/charmbracelet/glamour"
 	"github.com/rwxrob/bonzai"
 	"github.com/rwxrob/bonzai/mark"
+	"golang.org/x/term"
 	"gopkg.in/yaml.v3"
 )
 
@@ -53,6 +55,7 @@ var Cmd = &bonzai.Cmd{
 			glamour.WithAutoStyle(),
 			glamour.WithPreservedNewLines(),
 			glamour.WithStylesFromJSONBytes(jsonBytes),
+			glamour.WithWordWrap(termWidth()),
 		)
 
 		if err != nil {
@@ -68,4 +71,14 @@ var Cmd = &bonzai.Cmd{
 
 		return nil
 	},
+}
+
+// termWidth returns the current terminal width, falling back to 80 when
+// stdout isn't a terminal (e.g. piped output).
+func termWidth() int {
+	w, _, err := term.GetSize(int(os.Stdout.Fd()))
+	if err != nil || w <= 0 {
+		return 80
+	}
+	return w
 }
