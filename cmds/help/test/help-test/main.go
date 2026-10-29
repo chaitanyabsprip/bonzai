@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/rwxrob/bonzai"
-	"github.com/rwxrob/bonzai/cmds/help"
-	"github.com/rwxrob/bonzai/comp"
+	"github.com/chaitanyabsprip/bonzai"
+	"github.com/chaitanyabsprip/bonzai/cmds/help"
+	"github.com/chaitanyabsprip/bonzai/comp"
 )
 
 var cmd = &bonzai.Cmd{

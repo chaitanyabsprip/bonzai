@@ -12,7 +12,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/rwxrob/bonzai/web"
+	"github.com/chaitanyabsprip/bonzai/web"
 )
 
 // -------------------------- Package Globals -------------------------

@@ -1,7 +1,7 @@
-github.com/rwxrob/bonzai/fn v0.0.1-beta.2 h1:I2N7ttNTveQEdKqFfdOP6kem490PCP1IHo3H7595Eq8=
-github.com/rwxrob/bonzai/fn v0.0.1-beta.2/go.mod h1:7Il/56Y+M/vGs9W5GsUrnOR7amnFKwDD2kIdY5S0aA8=
-github.com/rwxrob/bonzai/json v0.0.1-beta.2 h1:AC54BfPAlQX4mCSqM5uAwYsvQjlc29FQE2rlw3ikJtg=
-github.com/rwxrob/bonzai/json v0.0.1-beta.2/go.mod h1:PfvglnEdmgiylIA8WaRCSL+QXJXFC/WZo5Y52C7ofT8=
+github.com/chaitanyabsprip/bonzai/fn v0.8.3 h1:OSb5BwOBTMye849xGS3RLwMQh5y/t0ckLi/sFNzGQCo=
+github.com/chaitanyabsprip/bonzai/fn v0.8.3/go.mod h1:WJiGoY9e/4v2gaDevyWAciqhGapTwdjjO+bykbOuHMY=
+github.com/chaitanyabsprip/bonzai/json v0.1.1 h1:ovEH8Yi0oHFpETi47ghRo1dk+rfA4SDTiiNAb3u0e3g=
+github.com/chaitanyabsprip/bonzai/json v0.1.1/go.mod h1:wfZbXV50W1Ol8ETC0eU5QSX4NGV6kiUH+sShJu1XNSo=
 gopkg.in/check.v1 v0.0.0-20161208181325-20d25e280405 h1:yhCVgyC4o1eVCa2tZl7eS0r+SDo693bJlVdllGtEeKM=
 gopkg.in/check.v1 v0.0.0-20161208181325-20d25e280405/go.mod h1:Co6ibVJAznAaIkqp8huTwlJQCZ016jof/cbN4VW5Yz0=
 gopkg.in/yaml.v3 v3.0.1 h1:fxVm/GzAzEWqLHuvctI91KS9hhNmmWOoWu0XTYJS7CA=

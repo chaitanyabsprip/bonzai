@@ -1,3 +1,3 @@
-module github.com/rwxrob/bonzai/choose
+module github.com/chaitanyabsprip/bonzai/choose
 
 go 1.23.0

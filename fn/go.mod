@@ -1,10 +1,11 @@
-module github.com/rwxrob/bonzai/fn
+module github.com/chaitanyabsprip/bonzai/fn
 
 go 1.23.0
 
-require github.com/rwxrob/bonzai/to v0.1.0
+require github.com/chaitanyabsprip/bonzai/to v0.3.1
 
 require (
-	github.com/rwxrob/bonzai/ds v0.1.0 // indirect
-	github.com/rwxrob/bonzai/scanner v0.1.0 // indirect
+	github.com/chaitanyabsprip/bonzai/ds v0.1.2 // indirect
+	github.com/chaitanyabsprip/bonzai/is v0.3.1 // indirect
+	github.com/chaitanyabsprip/bonzai/scanner v0.1.1 // indirect
 )

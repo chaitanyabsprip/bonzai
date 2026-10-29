@@ -1,8 +1,8 @@
 package redu
 
 import (
-	"github.com/rwxrob/bonzai/fn"
-	"github.com/rwxrob/bonzai/to"
+	"github.com/chaitanyabsprip/bonzai/fn"
+	"github.com/chaitanyabsprip/bonzai/to"
 )
 
 type Strings fn.Reducer[string]

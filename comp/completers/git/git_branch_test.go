@@ -3,10 +3,10 @@ package git_test
 import (
 	"fmt"
 
-	"github.com/rwxrob/bonzai/futil"
-	"github.com/rwxrob/bonzai/run"
+	"github.com/chaitanyabsprip/bonzai/futil"
+	"github.com/chaitanyabsprip/bonzai/run"
 
-	"github.com/rwxrob/bonzai/comp/completers/git"
+	"github.com/chaitanyabsprip/bonzai/comp/completers/git"
 )
 
 func ExampleCompBranches_Complete() {

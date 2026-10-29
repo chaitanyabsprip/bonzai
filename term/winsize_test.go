@@ -3,7 +3,7 @@ package term_test
 import (
 	"fmt"
 
-	"github.com/rwxrob/bonzai/term"
+	"github.com/chaitanyabsprip/bonzai/term"
 )
 
 func ExampleWinSize() {

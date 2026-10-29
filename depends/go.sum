@@ -1,5 +1,5 @@
-github.com/rwxrob/bonzai/term v0.2.1 h1:MMJcZ+OQJIKYINWzrHImdJ3MHDlxd2liZ99uHaRZddw=
-github.com/rwxrob/bonzai/term v0.2.1/go.mod h1:wjge/SBlsoVVMmMklnDb2uyeMFGxz7ouLwiJmEsv4Xw=
+github.com/chaitanyabsprip/bonzai/term v0.2.2 h1:vkf70p/rQLt1ToVAL6GQMQMa6oBLNEE5GyL0vRMewko=
+github.com/chaitanyabsprip/bonzai/term v0.2.2/go.mod h1:pEYHFhNcVhL5qr2/uDnGfelR5usarHzJ5NLL2qi9oW0=
 golang.org/x/crypto v0.29.0 h1:L5SG1JTTXupVV3n6sUqMTeWbjAyfPwoda2DLX8J8FrQ=
 golang.org/x/crypto v0.29.0/go.mod h1:+F4F4N5hv6v38hfeYwTdx20oUvLLc+QfrE9Ax9HtgRg=
 golang.org/x/sys v0.27.0 h1:wBqf8DvsY9Y/2P8gAfPDEYNuS30J4lPHJxXSb/nJZ+s=

@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/rwxrob/bonzai/tinout"
+	"github.com/chaitanyabsprip/bonzai/tinout"
 )
 
 const FMT = `2006-01-02 15:04:05 -0700`

@@ -1,11 +1,11 @@
 # 🌳 Go Bonzai™ CLI Framework and Library
 
-***Bonzai is undergoing a major upgrade and a [v1.0 should be here by 2025](https://github.com/rwxrob/bonzai/issues/226). We recommend waiting until then before migrating any existing stuff or embarking on RRIB shell script collections in your Dot files. Come join us on https://linktr.ee/rwxrob to help us finish up the new version.***
+***Bonzai is undergoing a major upgrade and a [v1.0 should be here by 2025](https://github.com/chaitanyabsprip/bonzai/issues/226). We recommend waiting until then before migrating any existing stuff or embarking on RRIB shell script collections in your Dot files. Come join us on https://linktr.ee/rwxrob to help us finish up the new version.***
 
-[![GoDoc](https://godoc.org/github.com/rwxrob/bonzai?status.svg)](https://godoc.org/github.com/rwxrob/bonzai)
+[![GoDoc](https://godoc.org/github.com/chaitanyabsprip/bonzai?status.svg)](https://godoc.org/github.com/chaitanyabsprip/bonzai)
 [![License](https://img.shields.io/badge/license-Apache2-brightgreen.svg)](LICENSE)
 [![Go Report
-Card](https://goreportcard.com/badge/github.com/rwxrob/bonzai)](https://goreportcard.com/report/github.com/rwxrob/bonzai)
+Card](https://goreportcard.com/badge/github.com/chaitanyabsprip/bonzai)](https://goreportcard.com/report/github.com/chaitanyabsprip/bonzai)
 
 > "It's like a modular, multicall BusyBox builder for Go with built in completion and embedded documentation support."
 
@@ -39,6 +39,6 @@ SPDX-License-Identifier: Apache-2.0
 
 "Bonzai" and "bonzai" are legal trademarks of Robert S. Muhlestein but
 can be used freely to refer to the Bonzai™ project
-<https://github.com/rwxrob/bonzai> without limitation. To avoid
+<https://github.com/chaitanyabsprip/bonzai> without limitation. To avoid
 potential developer confusion, intentionally using these trademarks to
 refer to other projects --- free or proprietary --- is prohibited.

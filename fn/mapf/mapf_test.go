@@ -6,9 +6,9 @@ package mapf_test
 import (
 	"os"
 
-	"github.com/rwxrob/bonzai/fn"
-	"github.com/rwxrob/bonzai/fn/each"
-	"github.com/rwxrob/bonzai/fn/mapf"
+	"github.com/chaitanyabsprip/bonzai/fn"
+	"github.com/chaitanyabsprip/bonzai/fn/each"
+	"github.com/chaitanyabsprip/bonzai/fn/mapf"
 )
 
 func ExampleMarkDirs() {

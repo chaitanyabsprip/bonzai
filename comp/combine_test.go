@@ -6,9 +6,9 @@ package comp_test
 import (
 	"fmt"
 
-	"github.com/rwxrob/bonzai"
-	"github.com/rwxrob/bonzai/comp"
-	"github.com/rwxrob/bonzai/fn/tr"
+	"github.com/chaitanyabsprip/bonzai"
+	"github.com/chaitanyabsprip/bonzai/comp"
+	"github.com/chaitanyabsprip/bonzai/fn/tr"
 )
 
 func ExampleCmdsOpts_Complete() {

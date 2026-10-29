@@ -419,12 +419,12 @@ type Completer interface {
 // CmdCompleter is a specialized [Completer] that requires a [Cmd]. This
 // is used for the following core completions:
 //
-//   - [pkg/github.com/rwxrob/bonzai/comp.Cmds]
-//   - [pkg/github.com/rwxrob/bonzai/comp.Aliases]
-//   - [pkg/github.com/rwxrob/bonzai/comp.CmdsAliases]
-//   - [pkg/github.com/rwxrob/bonzai/comp.Opts]
-//   - [pkg/github.com/rwxrob/bonzai/comp.CmdsOpts]
-//   - [pkg/github.com/rwxrob/bonzai/comp.CmdsOptsAliases]
+//   - [pkg/github.com/chaitanyabsprip/bonzai/comp.Cmds]
+//   - [pkg/github.com/chaitanyabsprip/bonzai/comp.Aliases]
+//   - [pkg/github.com/chaitanyabsprip/bonzai/comp.CmdsAliases]
+//   - [pkg/github.com/chaitanyabsprip/bonzai/comp.Opts]
+//   - [pkg/github.com/chaitanyabsprip/bonzai/comp.CmdsOpts]
+//   - [pkg/github.com/chaitanyabsprip/bonzai/comp.CmdsOptsAliases]
 type CmdCompleter interface {
 	Completer
 	Cmd() *Cmd
@@ -476,7 +476,7 @@ func (x *Cmd) Aliases() []string {
 // IsValidName is assigned a function that returns a boolean for the
 // given name. Note that if this is changed certain characters may break
 // the creation of multicall binary links and bash completion. See the
-// [pkg/github.com/rwxrob/bonzai/is] package for alternatives.
+// [pkg/github.com/chaitanyabsprip/bonzai/is] package for alternatives.
 var IsValidName = allLatinASCIILowerWithDashes
 
 func allLatinASCIILowerWithDashes(in string) bool {
@@ -581,7 +581,7 @@ func (x *Cmd) aliasSlice() []string {
 //	complete -C foo foo
 //
 // See [Completer] and [CmdCompleter] for more information about
-// completion and the [pkg/github.com/rwxrob/bonzai/comp/completers]
+// completion and the [pkg/github.com/chaitanyabsprip/bonzai/comp/completers]
 // package for a growing collection of community maintained common
 // completer implementations. Contributions always welcome.
 //
@@ -899,7 +899,7 @@ func (x *Cmd) CmdNames() []string {
 // along with the remaining arguments. Typically the args passed are
 // directly derived from the command line. Seek also sets [Cmd.Caller]
 // on each [Cmd] in the path. Seek is indirectly called by [Cmd.Run] and
-// [Cmd.Exec]. See [pkg/github.com/rwxrob/bonzai/cmds/help] for
+// [Cmd.Exec]. See [pkg/github.com/chaitanyabsprip/bonzai/cmds/help] for
 // a practical example of how and why a command might need to call Seek.
 // Also see [Cmd.SeekInit] when environment variables and initialization
 // functions are wanted as well. Seek returns its receiver and the same

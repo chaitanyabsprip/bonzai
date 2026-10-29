@@ -7,7 +7,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/rwxrob/bonzai/futil"
+	"github.com/chaitanyabsprip/bonzai/futil"
 )
 
 //go:embed all:testdata/testfs

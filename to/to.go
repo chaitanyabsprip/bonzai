@@ -20,10 +20,10 @@ import (
 	"time"
 	"unicode"
 
-	"github.com/rwxrob/bonzai/ds/qstack"
-	"github.com/rwxrob/bonzai/fn/maps"
-	"github.com/rwxrob/bonzai/is"
-	"github.com/rwxrob/bonzai/scanner"
+	"github.com/chaitanyabsprip/bonzai/ds/qstack"
+	"github.com/chaitanyabsprip/bonzai/fn/maps"
+	"github.com/chaitanyabsprip/bonzai/is"
+	"github.com/chaitanyabsprip/bonzai/scanner"
 )
 
 type Text interface{ string | []rune }

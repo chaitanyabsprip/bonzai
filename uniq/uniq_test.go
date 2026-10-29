@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/rwxrob/bonzai/uniq"
+	"github.com/chaitanyabsprip/bonzai/uniq"
 )
 
 func ExampleBytes() {

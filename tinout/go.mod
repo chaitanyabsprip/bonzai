@@ -1,4 +1,4 @@
-module github.com/rwxrob/bonzai/tinout
+module github.com/chaitanyabsprip/bonzai/tinout
 
 go 1.23.0
 
@@ -6,7 +6,4 @@ toolchain go1.23.2
 
 require gopkg.in/yaml.v3 v3.0.1
 
-require (
-	github.com/rwxrob/bonzai/fn v0.0.1-beta.2 // indirect
-	github.com/rwxrob/bonzai/json v0.0.1-beta.2
-)
+require github.com/chaitanyabsprip/bonzai/json v0.1.1

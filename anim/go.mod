@@ -1,11 +1,14 @@
-module github.com/rwxrob/bonzai/cmds/fishies
+module github.com/chaitanyabsprip/bonzai/anim
 
 go 1.23.3
 
 require (
-    github.com/rwxrob/bonzai v0.43.0
-    github.com/rwxrob/bonzai/anim v0.1.0
-    github.com/rwxrob/bonzai/cmds/help v0.7.2
-    github.com/rwxrob/bonzai/comp v0.9.5
-    gonum.org/v1/gonum v0.15.1
+	github.com/chaitanyabsprip/bonzai/run v0.7.1
+	github.com/chaitanyabsprip/bonzai/term v0.2.2
+)
+
+require (
+	github.com/chaitanyabsprip/bonzai/futil v0.3.1 // indirect
+	github.com/chaitanyabsprip/bonzai/uniq v0.1.1 // indirect
+	github.com/rogpeppe/go-internal v1.13.1 // indirect
 )

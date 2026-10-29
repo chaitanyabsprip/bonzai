@@ -1,4 +1,4 @@
-module github.com/rwxrob/bonzai/yaml
+module github.com/chaitanyabsprip/bonzai/yaml
 
 go 1.23.0
 

@@ -3,8 +3,8 @@ package git
 import (
 	"strings"
 
-	"github.com/rwxrob/bonzai"
-	"github.com/rwxrob/bonzai/run"
+	"github.com/chaitanyabsprip/bonzai"
+	"github.com/chaitanyabsprip/bonzai/run"
 )
 
 type branches struct{}

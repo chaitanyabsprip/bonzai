@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/rwxrob/bonzai/fn/each"
+	"github.com/chaitanyabsprip/bonzai/fn/each"
 )
 
 type Transformer[I any, O any] interface {

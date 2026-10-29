@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/rwxrob/bonzai/comp"
+	"github.com/chaitanyabsprip/bonzai/comp"
 )
 
 func ExampleFile_nil() {

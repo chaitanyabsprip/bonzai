@@ -4,7 +4,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/rwxrob/bonzai/json"
+	"github.com/chaitanyabsprip/bonzai/json"
 )
 
 func TestLoad(t *testing.T) {

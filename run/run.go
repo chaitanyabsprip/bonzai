@@ -16,7 +16,7 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/rwxrob/bonzai/futil"
+	"github.com/chaitanyabsprip/bonzai/futil"
 )
 
 // Executable returns the absolute path of the executable, resolving

@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"syscall"
 
-	"github.com/rwxrob/bonzai/run"
-	"github.com/rwxrob/bonzai/term/esc"
+	"github.com/chaitanyabsprip/bonzai/run"
+	"github.com/chaitanyabsprip/bonzai/term/esc"
 )
 
 // SimpleAnimationScreen conveniently sets up an alternate screen buffer
