@@ -7,6 +7,7 @@ require (
 	github.com/rwxrob/bonzai v0.56.5
 	github.com/rwxrob/bonzai/comp v0.10.0
 	github.com/rwxrob/bonzai/mark v0.12.0
+	golang.org/x/term v0.27.0
 	gopkg.in/yaml.v3 v3.0.1
 )
 
@@ -39,5 +40,4 @@ require (
 	github.com/yuin/goldmark-emoji v1.0.4 // indirect
 	golang.org/x/net v0.33.0 // indirect
 	golang.org/x/sys v0.28.0 // indirect
-	golang.org/x/term v0.27.0 // indirect
 )
