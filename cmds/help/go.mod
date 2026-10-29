@@ -1,12 +1,12 @@
-module github.com/rwxrob/bonzai/cmds/help
+module github.com/chaitanyabsprip/bonzai/cmds/help
 
 go 1.23.0
 
 require (
 	github.com/charmbracelet/glamour v0.8.0
-	github.com/rwxrob/bonzai v0.56.5
-	github.com/rwxrob/bonzai/comp v0.10.0
-	github.com/rwxrob/bonzai/mark v0.12.0
+	github.com/chaitanyabsprip/bonzai v0.54.2
+	github.com/chaitanyabsprip/bonzai/comp v0.10.1
+	github.com/chaitanyabsprip/bonzai/mark v0.12.2
 	golang.org/x/term v0.27.0
 	gopkg.in/yaml.v3 v3.0.1
 )
@@ -27,15 +27,15 @@ require (
 	github.com/muesli/termenv v0.15.3-0.20241212154518-8c990cd6cf4b // indirect
 	github.com/rivo/uniseg v0.4.7 // indirect
 	github.com/rogpeppe/go-internal v1.13.1 // indirect
-	github.com/rwxrob/bonzai/ds v0.1.1 // indirect
-	github.com/rwxrob/bonzai/fn v0.9.0 // indirect
-	github.com/rwxrob/bonzai/futil v0.4.0 // indirect
-	github.com/rwxrob/bonzai/is v0.3.0 // indirect
+	github.com/chaitanyabsprip/bonzai/ds v0.1.2 // indirect
+	github.com/chaitanyabsprip/bonzai/fn v0.8.3 // indirect
+	github.com/chaitanyabsprip/bonzai/futil v0.3.1 // indirect
+	github.com/chaitanyabsprip/bonzai/is v0.3.1 // indirect
 	github.com/rwxrob/bonzai/mark/funcs v0.8.6 // indirect
-	github.com/rwxrob/bonzai/run v0.7.0 // indirect
-	github.com/rwxrob/bonzai/scanner v0.1.0 // indirect
-	github.com/rwxrob/bonzai/to v0.6.1 // indirect
-	github.com/rwxrob/bonzai/uniq v0.1.0 // indirect
+	github.com/chaitanyabsprip/bonzai/run v0.7.1 // indirect
+	github.com/chaitanyabsprip/bonzai/scanner v0.1.1 // indirect
+	github.com/chaitanyabsprip/bonzai/to v0.3.1 // indirect
+	github.com/chaitanyabsprip/bonzai/uniq v0.1.1 // indirect
 	github.com/yuin/goldmark v1.7.8 // indirect
 	github.com/yuin/goldmark-emoji v1.0.4 // indirect
 	golang.org/x/net v0.33.0 // indirect

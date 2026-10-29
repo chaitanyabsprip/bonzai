@@ -1,4 +1,4 @@
-module github.com/rwxrob/bonzai/yq
+module github.com/chaitanyabsprip/bonzai/yq
 
 go 1.23.0
 

@@ -30,7 +30,7 @@ func New[T any]() *QS[T] { return new(QS[T]) }
 
 // Items returns the items of the stack as a slice with newest items on
 // the next. To apply an iterator function over the items consider
-// using the rwxrob/bonzai/fn package with Map/Filter/Reduce/Each functions.
+// using the chaitanyabsprip/bonzai/fn package with Map/Filter/Reduce/Each functions.
 func (s *QS[T]) Items() []T {
 	items := []T{}
 	for cur := s.bot; cur != nil; cur = cur.next {
@@ -200,10 +200,10 @@ func (s QS[T]) MarshalJSON() ([]byte, error) {
 	return json.Marshal(s.Items())
 }
 
-// JSON implements rwxrob/bonzai/json.AsJSON.
+// JSON implements chaitanyabsprip/bonzai/json.AsJSON.
 func (s *QS[T]) JSON() ([]byte, error) { return s.MarshalJSON() }
 
-// String implements rwxrob/bonzai/json.Stringer and fmt.Stringer.
+// String implements chaitanyabsprip/bonzai/json.Stringer and fmt.Stringer.
 func (s QS[T]) String() string {
 	byt, err := s.JSON()
 	if err != nil {
@@ -212,18 +212,18 @@ func (s QS[T]) String() string {
 	return string(byt)
 }
 
-// String implements rwxrob/bonzai/json.Printer.
+// String implements chaitanyabsprip/bonzai/json.Printer.
 func (s *QS[T]) Print() { fmt.Println(s.String()) }
 
-// Log implements rwxrob/bonzai/json.Logger.
+// Log implements chaitanyabsprip/bonzai/json.Logger.
 func (s QS[T]) Log() { log.Print(s.String()) }
 
 // ---------------------------- marshaling ----------------------------
 
-// JSON implements rwxrob/bonzai/json.AsJSON.
+// JSON implements chaitanyabsprip/bonzai/json.AsJSON.
 func (s *item[T]) JSON() ([]byte, error) { return json.Marshal(s) }
 
-// String implements rwxrob/bonzai/json.Stringer and fmt.Stringer.
+// String implements chaitanyabsprip/bonzai/json.Stringer and fmt.Stringer.
 func (s item[T]) String() string {
 	byt, err := s.JSON()
 	if err != nil {
@@ -232,8 +232,8 @@ func (s item[T]) String() string {
 	return string(byt)
 }
 
-// String implements rwxrob/bonzai/json.Printer.
+// String implements chaitanyabsprip/bonzai/json.Printer.
 func (s *item[T]) Print() { fmt.Println(s.String()) }
 
-// Log implements rwxrob/bonzai/json.Logger.
+// Log implements chaitanyabsprip/bonzai/json.Logger.
 func (s item[T]) Log() { log.Print(s.String()) }

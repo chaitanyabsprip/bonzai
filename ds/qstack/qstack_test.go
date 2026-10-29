@@ -5,7 +5,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/rwxrob/bonzai/ds/qstack"
+	"github.com/chaitanyabsprip/bonzai/ds/qstack"
 )
 
 func ExampleQS_Push() {

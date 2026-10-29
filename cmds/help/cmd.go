@@ -7,8 +7,8 @@ import (
 	"os"
 
 	"github.com/charmbracelet/glamour"
-	"github.com/rwxrob/bonzai"
-	"github.com/rwxrob/bonzai/mark"
+	"github.com/chaitanyabsprip/bonzai"
+	"github.com/chaitanyabsprip/bonzai/mark"
 	"golang.org/x/term"
 	"gopkg.in/yaml.v3"
 )

@@ -4,7 +4,7 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/rwxrob/bonzai/run"
+	"github.com/chaitanyabsprip/bonzai/run"
 )
 
 func main() {

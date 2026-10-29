@@ -1,4 +1,4 @@
-module github.com/rwxrob/bonzai/term
+module github.com/chaitanyabsprip/bonzai/term
 
 go 1.23.0
 

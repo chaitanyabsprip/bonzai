@@ -1,8 +1,8 @@
-module github.com/rwxrob/bonzai/depends
+module github.com/chaitanyabsprip/bonzai/depends
 
 go 1.23.3
 
-require github.com/rwxrob/bonzai/term v0.2.1
+require github.com/chaitanyabsprip/bonzai/term v0.2.2
 
 require (
 	golang.org/x/crypto v0.29.0 // indirect

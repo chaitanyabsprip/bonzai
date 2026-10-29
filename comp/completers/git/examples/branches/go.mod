@@ -1,3 +1,3 @@
-module github.com/rwxrob/bonzai/comp/completers/git/tests/branches
+module github.com/chaitanyabsprip/bonzai/comp/completers/git/tests/branches
 
 go 1.23.2

@@ -1,3 +1,3 @@
-module github.com/rwxrob/bonzai/is
+module github.com/chaitanyabsprip/bonzai/is
 
 go 1.23.0

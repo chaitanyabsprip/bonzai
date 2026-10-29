@@ -8,11 +8,11 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/rwxrob/bonzai"
-	"github.com/rwxrob/bonzai/futil"
+	"github.com/chaitanyabsprip/bonzai"
+	"github.com/chaitanyabsprip/bonzai/futil"
 	"github.com/rwxrob/bonzai/mark/funcs"
-	"github.com/rwxrob/bonzai/run"
-	"github.com/rwxrob/bonzai/to"
+	"github.com/chaitanyabsprip/bonzai/run"
+	"github.com/chaitanyabsprip/bonzai/to"
 )
 
 //go:embed template.md
@@ -25,7 +25,7 @@ var DefaultBonzaiCmdTemplate string
 //
 // See following for details:
 //
-// - [pkg/github.com/rwxrob/bonzai]
+// - [pkg/github.com/chaitanyabsprip/bonzai]
 // - [pkg/github.com/rwxrob/bonzai/mark/funcs]
 // - [pkg/text/template]
 //

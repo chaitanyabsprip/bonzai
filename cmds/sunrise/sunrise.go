@@ -5,7 +5,7 @@ import (
 	"math"
 	"time"
 
-	"github.com/rwxrob/bonzai/anim"
+	"github.com/chaitanyabsprip/bonzai/anim"
 )
 
 var (

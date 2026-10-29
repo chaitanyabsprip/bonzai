@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/rwxrob/bonzai/futil"
-	"github.com/rwxrob/bonzai/vars"
+	"github.com/chaitanyabsprip/bonzai/futil"
+	"github.com/chaitanyabsprip/bonzai/vars"
 )
 
 func ExampleSet() {

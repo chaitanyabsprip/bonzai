@@ -8,7 +8,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/rwxrob/bonzai/fn"
+	"github.com/chaitanyabsprip/bonzai/fn"
 )
 
 func ExampleA_a_is_for_array() {

@@ -7,8 +7,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/rwxrob/bonzai/term"
-	"github.com/rwxrob/bonzai/term/esc"
+	"github.com/chaitanyabsprip/bonzai/term"
+	"github.com/chaitanyabsprip/bonzai/term/esc"
 )
 
 func ExampleRed() {

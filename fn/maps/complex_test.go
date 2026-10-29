@@ -6,7 +6,7 @@ package maps_test
 import (
 	"fmt"
 
-	"github.com/rwxrob/bonzai/fn/maps"
+	"github.com/chaitanyabsprip/bonzai/fn/maps"
 )
 
 func ExamplePrefix() {

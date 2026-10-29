@@ -1,3 +1,3 @@
-module github.com/rwxrob/bonzai/opts
+module github.com/chaitanyabsprip/bonzai/opts
 
 go 1.23.0
